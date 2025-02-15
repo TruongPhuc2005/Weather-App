@@ -20,7 +20,7 @@ async function fetchWeather() {
         }
 
         document.getElementById("city-name").textContent = data.name;
-        document.getElementById("temperature").textContent = `Temp: ${data.main.temp}°C`;
+        document.getElementById("temperature").textContent = `Temperature: ${data.main.temp}°C`;
         document.getElementById("description").textContent = `Weather: ${data.weather[0].description}`;
         document.getElementById("humidity").textContent = `Humidity: ${data.main.humidity}%`;
         document.getElementById("wind").textContent = `Wind Speed: ${data.wind.speed} km/h`;
@@ -45,7 +45,7 @@ async function getLocationWeather() {
                 const data = await response.json();
 
                 document.getElementById("city-name").textContent = data.name;
-                document.getElementById("temperature").textContent = `Temp: ${data.main.temp}°C`;
+                document.getElementById("temperature").textContent = `Temperature: ${data.main.temp}°C`;
                 document.getElementById("description").textContent = `Weather: ${data.weather[0].description}`;
                 document.getElementById("humidity").textContent = `Humidity: ${data.main.humidity}%`;
                 document.getElementById("wind").textContent = `Wind Speed: ${data.wind.speed} km/h`;
