@@ -1,0 +1,48 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+.container{
+    margin-top: 50px;
+    padding: 20px;
+    background: rgba(0,0,0,0);
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.search-box{
+    margin-bottom: 20px;
+}
+
+input{
+    font-size: 16px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button{
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.weather-info{
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(230, 230, 230, 0.5);
+    border-radius: 10px;
+    display: inline-block;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.dark-mode{
+    background: rgba(0,0,0,0.5);
+    color: white;
+}
